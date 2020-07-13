@@ -14,6 +14,13 @@ public class Car {
 	private String color;
 
 
+	public Car(int carId, String model, String color) {
+		super();
+		this.carId = carId;
+		this.model = model;
+		this.color = color;
+	}
+
 	public String getModel() {
 		return model;
 	}
