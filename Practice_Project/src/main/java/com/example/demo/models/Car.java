@@ -13,7 +13,10 @@ public class Car {
 	private String model;
 	private String color;
 
-
+	public Car() {
+		
+	}
+	
 	public Car(int carId, String model, String color) {
 		super();
 		this.carId = carId;
